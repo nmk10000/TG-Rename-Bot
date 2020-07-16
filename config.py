@@ -2,15 +2,15 @@ import os
 
 class Config(object):
     # get a token from https://chatbase.com
-    CHAT_BASE_TOKEN = os.environ.get("57d5a87e-2217-480a-bedc-622b3d24deb9", )
+    CHAT_BASE_TOKEN = os.environ.get("14cb195c-3a04-4cc1-ac08-96ed4944f3b9", )
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("1285306305:AAHuPNLroWn6JU4ocZegsQQ7pTooyegB1eI", )
+    TG_BOT_TOKEN = os.environ.get("1326683190:AAEbY4mSpFWpdRGexcXx9qiyvZuJc52Wc0M", )
     # The Telegram API things
-    APP_ID = int(os.environ.get("1152260"))
-    API_HASH = os.environ.get("b61a446928fb880557d5de2dc2d87c3a")
+    APP_ID = int(os.environ.get("1625501"))
+    API_HASH = os.environ.get("602a3b5bf8c45a4f40b71e88a32a6525")
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("1181258174", ).split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("1205289464", ).split())
     # Banned Unwanted Members..
     BANNED_USERS = []
     # the download location, where the HTTP Server runs
@@ -34,3 +34,14 @@ class Config(object):
     PROCESS_MAX_TIMEOUT = 3600
     # watermark file
     DEF_WATER_MARK_FILE = ""
+    
+    
+    
+
+
+
+
+
+
+
+
